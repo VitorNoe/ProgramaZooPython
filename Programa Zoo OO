@@ -1,0 +1,28 @@
+class Animal:
+    def __init__(self, nome, idade, barulho, movimento, alimentacao, habitat, vizinhos, horas_alimentacao):
+        self.nome = nome
+        self.idade = idade 
+        self.barulho = barulho
+        self.movimento = movimento
+        self.alimentacao = alimentacao
+        self.habitat = habitat
+        self.vizinhos = vizinhos
+        self.horas_alimentacao = horas_alimentacao
+        
+class Leão(Animal):
+        def barulho(self):
+            return "Algum barulho"
+        def movimento(self):
+            return "algum movimento"
+        def alimentacao(self):
+            return "alguma alimentação"
+        def habitat(self):
+            return "algum habitat" 
+        def vizinhos(self):
+            return "algum vizinho"
+        def horas_alimentacao(self):
+            return "algum horario"
+        
+animais = [Leão("Leo", 5),]
+for animal in animais:
+	print(f"{animal.nome} / {animal.idade} / {animal.barulho()} / {animal.movimento()} / {animal.alimentacao()} / {animal.habitat()} / {animal.vizinhos()} / {animal.horas_alimentacao()}")
