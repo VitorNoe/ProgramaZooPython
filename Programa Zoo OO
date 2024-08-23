@@ -26,3 +26,36 @@ class Leão(Animal):
 animais = [Leão("Leo", 5),]
 for animal in animais:
 	print(f"{animal.nome} / {animal.idade} / {animal.barulho()} / {animal.movimento()} / {animal.alimentacao()} / {animal.habitat()} / {animal.vizinhos()} / {animal.horas_alimentacao()}")
+
+
+
+
+
+
+class Animal:
+    def __init__(self, nome, idade, barulho, movimento, alimentacao, habitat, vizinhos, horas_alimentacao):
+        self.nome = nome
+        self.idade = idade
+        self.barulho = barulho
+        self.movimento = movimento
+        self.alimentacao = alimentacao
+        self.habitat = habitat
+        self.vizinhos = vizinhos
+        self.horas_alimentacao = horas_alimentacao    
+
+class Leao(Animal):
+    def barulho(self):
+        return "rugido"
+
+class Coruja(Animal):
+    def barulho(self):
+        return "Cuuu"
+  
+class Tartaruga(Animal):
+    def barulho(self):
+        return "bufos"
+ 
+# Lista de animais com polimorfismo
+animais = [Leao("Rex", 5), Coruja("Mingau", 3), Tartaruga("Tweety", 1)]
+for animal in animais:
+	print(f"O {animal.nome} faz: {animal.fazer_barulho()}")
