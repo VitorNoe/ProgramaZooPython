@@ -17,6 +17,7 @@ Este programa é um sistema feito em python, onde é possivel cadastrar e gerenc
 - **Controle de vizinhos:** Durante o cadastro de um animal, o usuário pode informar até dois vizinhos que compartilham o habitat com o animal. O programa valida para garantir que o número de vizinhos não exceda dois.
 
 ## Como Executar
+- **Certifique que tosas as extensões do programa python  estejam instaladas no Visual Studio Code.
 
 1. **Clonar o repositório:**
 
