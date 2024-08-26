@@ -39,11 +39,11 @@ Este programa é um sistema de cadastro e gerenciamento de animais em um zoológ
 
    Após a execução, o menu principal será exibido, oferecendo as seguintes opções:
 
-   1 **Cadastrar novo animal**
-   2 **Listar todos os animais**
-   3 **Buscar animal por nome**
-   4 **Listar animais por categoria**
-   5 **Sair**
+   1. Cadastrar novo animal
+   2. Listar todos os animais
+   3. Buscar animal por nome
+   4. Listar animais por categoria
+   5. Sair
 
    Selecione a opção desejada digitando o número correspondente e seguindo as instruções exibidas.
 
